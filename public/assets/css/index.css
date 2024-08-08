@@ -1,0 +1,17 @@
+:root{
+--background-body:rgb(46, 13, 40);
+--back-clair:rgb(243, 242, 242);
+--btn-link:rgb(131, 39, 131);
+--white-color:#fff;
+--shadow-event:0 2px 4px rgb(80, 26, 30);
+--footer-bg:rgb(131, 76, 129);
+/* --card-bg:rgb(107, 41, 69); */
+--box-shadow-clear: 0 2px 4px rgba(0, 0, 0, 0.1);
+--card-bg:rgb(78,46,72);
+--text-color:#fff;
+--card-shadow: 4px 2px 8px rgb(20, 20, 40);
+--round-bg:rgb(222, 230, 222);
+--hover-color:#ddd;
+--h-color:#ddf;
+
+}

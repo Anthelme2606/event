@@ -1,0 +1,17 @@
+.card-style{
+    background: var(--card-bg);
+    color: var(--text-color);
+    box-shadow:var(--card-shadow);
+}
+.ev-logo{
+    border-radius: 50%; 
+    height: 50px; 
+    width: 50px; text-align: center; 
+      background: var(--round-bg);
+    box-shadow:var(--shadow-event);
+    text-align:center;
+}
+.title-color{
+    color:var(--h-color);
+}
+

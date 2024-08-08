@@ -1,0 +1,12 @@
+.hero-section {
+    color: white;
+    /* background-attachment: fixed; */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .btn-service{
+    background:rgb(131, 39, 131);
+    color:#fff;
+  }
+  .btn-service:hover{
+    color:rgb(189, 212, 209);
+  }
