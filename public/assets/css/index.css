@@ -1,6 +1,7 @@
 :root{
 --background-body:rgb(46, 13, 40);
 --back-clair:rgb(243, 242, 242);
+--btn-bg:rgb(131, 39, 131);
 --btn-link:rgb(131, 39, 131);
 --white-color:#fff;
 --shadow-event:0 2px 4px rgb(80, 26, 30);
@@ -13,5 +14,6 @@
 --round-bg:rgb(222, 230, 222);
 --hover-color:#ddd;
 --h-color:#ddf;
+--black:#002;
 
 }

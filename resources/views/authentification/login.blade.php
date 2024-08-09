@@ -8,97 +8,98 @@
 
 @section('contents')
 <style>
-   
-
-    .login-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction:column;
-        width: 360px;
-        background: white;
-        border-radius: 20px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        overflow: hidden;
+    .bg-custom-gray { background-color: rgb(243, 242, 242); }
+    .bg-custom-purple { background-color: rgb(131, 39, 131); }
+    .bg-custom-dark { background-color: rgb(46, 13, 40); }
+    .icon-container {
+        padding: 16px;
+        border-radius: 50%;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        margin-right: 15px; /* Espace entre les icônes */
     }
-
-    .login-header {
-        width: 100%;
-        height: 150px;
-        background: black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
+    .icon-custom {
+        width: 24px;
+        height: 24px;
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
     }
-
-    .login-header img {
-        width: 50px;
-        height: 50px;
+    .btn-custom {
+        background-color: rgb(131, 39, 131);
+        color: rgb(243, 242, 242);
+        border-radius: 8px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     }
-
-    .login-body {
+    .btn-custom:hover {
+        background-color: rgba(131, 39, 131, 0.9);
+    }
+    .form-control:focus {
+        border-color: rgb(131, 39, 131);
+        box-shadow: 0 0 0 0.2rem rgba(131, 39, 131, 0.25);
+    }
+    /* Ajout du clip-path en forme de polygone */
+    .clip-path-container {
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
+        background-color: rgba(0, 0, 0, 0.05); /* Optionnel : ajout d'une légère couleur de fond */
         padding: 20px;
-        display: flex;
-        border-top-left-radius:50%;
-        justify-content:center;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .login-body h4 {
-        margin-bottom: 20px;
-        color: black;
-        font-size: 24px;
-    }
-
-    .login-body input {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        font-size: 16px;
-    }
-
-    .login-body button {
-        width: 100%;
-        padding: 10px;
-        background: black;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        font-size: 16px;
-        cursor: pointer;
-    }
-
-    .login-footer {
-        text-align: center;
-        padding: 10px;
-        color: #666;
-    }
-
-    .login-footer a {
-        color: black;
-        text-decoration: none;
+        border-radius: 15px; /* Ajout de coins arrondis */
+        margin-bottom: 20px; /* Espacement en bas pour une meilleure disposition */
     }
 </style>
 
-<div class="login-container">
-    <div class="login-header">
-        <img src="{{asset('assets/images/event.png')}}" alt="Logo">
+<div class="container-fluid">
+<div class="row min-vh-100">
+    <div class="col-lg-6 d-flex flex-column align-items-center justify-content-center bg-custom-gray p-5">
+        <!-- Ajout du clip-path à la section contenant les icônes -->
+        <div class="clip-path-container d-flex justify-content-center">
+            <div class="icon-container bg-custom-purple">
+                <svg class="icon-custom" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="white" viewBox="0 0 24 24">
+                    <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z" />
+                    <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+                    <line x1="12" y1="19" x2="12" y2="22" />
+                </svg>
+            </div>
+            <div class="icon-container bg-secondary">
+                <svg class="icon-custom" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="orange" viewBox="0 0 24 24">
+                    <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
+                    <circle cx="7" cy="17" r="2" />
+                    <path d="M9 17h6" />
+                    <circle cx="17" cy="17" r="2" />
+                </svg>
+            </div>
+            <div class="icon-container bg-accent">
+                <svg class="icon-custom" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="blue" viewBox="0 0 24 24">
+                    <path d="m2 2 8 8" />
+                    <path d="m22 2-8 8" />
+                    <ellipse cx="12" cy="9" rx="10" ry="5" />
+                    <path d="M7 13.4v7.9" />
+                    <path d="M12 14v8" />
+                    <path d="M17 13.4v7.9" />
+                    <path d="M2 9v8a10 5 0 0 0 20 0V9" />
+                </svg>
+            </div>
+        </div>
     </div>
-    <div class="login-body">
-        <h4>Login</h4>
-        <form action="" method="post">
-            <input type="email" name="email" placeholder="Email">
-            <input type="password" name="password" placeholder="Password">
-            <button type="submit" name="login">Login</button>
-        </form>
+    <div class="col-lg-6 d-flex align-items-center justify-content-center bg-custom-dark p-5">
+        <div class="w-100" style="max-width: 400px;">
+            <div class="text-center mb-4">
+                <h1 class="text-light">Connexion</h1>
+                <p class="text-light">Entrez votre email ci-dessous pour vous connecter à votre compte.</p>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="email" class="text-light">Email</label>
+                    <input type="email" id="email" class="form-control" placeholder="m@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="text-light">Mot de passe</label>
+                    <input type="password" id="password" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-custom btn-block mt-4">Se connecter</button>
+            </form>
+        </div>
     </div>
-    <div class="login-footer">
-        Don't have any account? <a href="#">Sign Up</a>
-    </div>
+</div>
 </div>
 @endsection
 
