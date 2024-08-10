@@ -23,7 +23,7 @@
           <a class="nav-link" href="{{route('login')}}">Se connecter</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Ouvrir un compte</a>
+          <a class="nav-link" href="{{route('signup')}}">Ouvrir un compte</a>
         </li>
       </ul>
     </div>
