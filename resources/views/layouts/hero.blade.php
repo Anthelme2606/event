@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{asset('assets/css/hero.css?'). '?' . time() }}"/>
+<link rel="stylesheet" href="{{asset('assets/css/hero.css'). '?' . time() }}"/>
 <section class="hero-section text-center text-light"
  style="background-image: url('{{asset('assets/images/hero.jpeg')}}');
   height: 100vh; background-size: cover; background-position: center;">
