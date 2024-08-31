@@ -25,12 +25,12 @@
 }
 .ring:nth-child(2) {
     border-right-width: 8px;
-    border-color: rgb(66, 73, 146);
+    border-color: #002;
     animation: rotateVertical 2s linear infinite;
 }
 .ring:nth-child(3) {
     border-top-width: 8px;
-    border-color: rgb(74, 146, 100);
+    border-color: #fff;
     animation: rotateDiagonal2 2s linear infinite;
 }
 @keyframes rotateDiagonal1 {
