@@ -1,6 +1,6 @@
-<link rel="stylesheet" href="{{asset('assets/components/css/navbar.css?'.echo time())}}"/>
+<link rel="stylesheet" href="{{asset('assets/components/css/navbar.css?'). '?' . time() }}"/>
 <nav class="navbar navbar-expand-lg navbar-dark navbar-color">
-    <a class="navbar-brand" href="{{route('welcome')}}">Gevent</a>
+    <a class="navbar-brand" href="{{route('welcome')}}">EVENTLYTIC</a>
     <input type="search" class="search-input" placeholder="Rechercher ...">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -28,5 +28,5 @@
       </ul>
     </div>
   </nav>
-  <script src="{{asset('assets/components/js/navbar.js?'.echo time())}}"></script>
+  <script src="{{asset('assets/components/js/navbar.js?'). '?' . time() }}"></script>
   

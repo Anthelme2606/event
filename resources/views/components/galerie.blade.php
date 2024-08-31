@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{asset('assets/components/css/cards.css?'.echo time())}}">
+<link rel="stylesheet" href="{{asset('assets/components/css/cards.css?'). '?' . time() }}">
 @props(['image' => null, 'description' => null, 'date' => null,'spectateurs'=>null])
 
 @php

@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icon-css@4.1.7/css/flag-icons.min.css"
         integrity="sha256-8qup5VqQKcE2cLILwBU2zpXUkT+eW5tI1ZLzJjh/TdY=" crossorigin="anonymous">
    
-        <link rel="stylesheet" href="{{ asset('assets/css/index.css?'.echo time()) }}">
+        <link rel="stylesheet" href="{{ asset('assets/css/index.css?') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css?'.echo time()) }}">
     
     <link
