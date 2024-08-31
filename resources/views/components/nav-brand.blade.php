@@ -4,7 +4,7 @@
             <li class="d-flex align-items-center">
                 <ul class="d-flex justify-content-between align-items-center m-0 p-0">
                     <li class="app-name">
-                        <a href="{{route('welcome')}}">Gevent</a>
+                        <a href="{{route('welcome')}}">EVENTLYTIC</a>
                     </li>
                     <li class="mx-4 toggle-btn">
                         <button class="border-0">
@@ -64,8 +64,11 @@
         height: 40px;
         padding: 0;
         border-bottom: 1px solid rgb(149, 153, 143);
-        background:linear-gradient(to right, rgb(48, 29, 29), rgb(31, 12, 25));
+        background: linear-gradient(45deg, #ff9900, #ff6600);
         z-index: 999;
+        position:fixed;
+        top:0;
+       
         /* background: rgb(155, 176, 155); */
         width: 100%;
     }
@@ -105,7 +108,7 @@
         display: none;
         width: 200px;
         padding: 10px;
-        background: #2e1125;
+        background: linear-gradient(45deg, #ff9900, #ff6600);
         border: 1px solid rgba(0, 0, 0, 0.2);
         border-radius: 4px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

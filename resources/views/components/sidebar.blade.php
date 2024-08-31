@@ -94,7 +94,8 @@
    
 
     .active-link{
-        background:var(--btn-link);
+        /* color:var(--btn-link); */
+        color:#fff !important;
         border-left:2px solid rgb(43, 238, 43);
         border-radius:4px;
     }
@@ -160,7 +161,7 @@ li a:hover{}
         position: fixed;
         width: 20%;
         height: 100vh;
-        background: linear-gradient(to right, rgb(45, 45, 45), rgb(35, 13, 14));
+        background: linear-gradient(45deg, #ff9900, #ff6600);
         transition: all 0.4s ease;
         border-right: 1px solid rgb(38,12,25);
         box-shadow:0 4px 8px rgba(0,0,0,0.2);

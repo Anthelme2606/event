@@ -30,7 +30,7 @@
 }
 .ring:nth-child(3) {
     border-top-width: 8px;
-    border-color: #fff;
+    border-color: gray;
     animation: rotateDiagonal2 2s linear infinite;
 }
 @keyframes rotateDiagonal1 {
