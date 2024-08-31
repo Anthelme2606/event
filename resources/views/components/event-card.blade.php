@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{asset('assets/components/css/cards.css')}}">
+<link rel="stylesheet" href="{{asset('assets/components/css/cards.css?'.echo time())}}">
 @props(['icon' => 'null', 'title' => 'null', 'description' => 'null'])
 
 <a href="" class="card-link">

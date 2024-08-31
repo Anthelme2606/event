@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{asset('assets/components/css/navbar.css')}}"/>
+<link rel="stylesheet" href="{{asset('assets/components/css/navbar.css?'.echo time())}}"/>
 <nav class="navbar navbar-expand-lg navbar-dark navbar-color">
     <a class="navbar-brand" href="{{route('welcome')}}">Gevent</a>
     <input type="search" class="search-input" placeholder="Rechercher ...">
@@ -28,5 +28,5 @@
       </ul>
     </div>
   </nav>
-  <script src="{{asset('assets/components/js/navbar.js')}}"></script>
+  <script src="{{asset('assets/components/js/navbar.js?'.echo time())}}"></script>
   

@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{asset('assets/components/css/footer.css')}}">
+<link rel="stylesheet" href="{{asset('assets/components/css/footer.css?'.echo time())}}">
 
 <footer class="footer-section  text-light py-4">
   <section class="newsletter-section py-5 text-light text-center">
