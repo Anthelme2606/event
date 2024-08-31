@@ -1,2 +1,0 @@
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-   <?php /**PATH C:\projects\event_management\event\resources\views/layouts/head-b-4.blade.php ENDPATH**/ ?>
