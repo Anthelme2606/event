@@ -1,12 +1,22 @@
 .hero-section {
     color: white;
-    /* background-attachment: fixed; */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+    text-shadow: 2px 2px 4px #002;
   }
   .btn-service{
-    background:rgb(131, 39, 131);
+    background:rgb(248, 163, 4);
     color:#fff;
   }
   .btn-service:hover{
-    color:rgb(189, 212, 209);
+    color:white;
+  }
+  .btn-travaux:hover{
+    background:rgb(248, 163, 4);
+    color:white;
+  }
+  .title-color{
+    color:#002 !important;
+  }
+  .hero-title{
+    color:#fff;
   }

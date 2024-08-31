@@ -8,7 +8,7 @@
     height: 50px; 
     width: 50px; text-align: center; 
       background: var(--round-bg);
-    box-shadow:var(--shadow-event);
+    /* box-shadow:var(--shadow-event); */
     text-align:center;
 }
 .title-color{

@@ -86,14 +86,16 @@
                 <h1 class="text-light">Connexion</h1>
                 <p class="text-light">Entrez votre email ci-dessous pour vous connecter à votre compte.</p>
             </div>
-            <form>
+            <form action="{{route('log_in')}}" method="POST">
+                @method('POST')
+                @csrf
                 <div class="form-group">
                     <label for="email" class="text-light">Email</label>
-                    <input type="email" id="email" class="form-control" placeholder="m@example.com" required>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="m@example.com" required>
                 </div>
                 <div class="form-group">
                     <label for="password" class="text-light">Mot de passe</label>
-                    <input type="password" id="password" class="form-control" required>
+                    <input type="password" id="password" name="password" class="form-control" required>
                 </div>
                 <button type="submit" class="btn btn-custom btn-block mt-4">Se connecter</button>
             </form>

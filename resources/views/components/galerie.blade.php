@@ -19,7 +19,7 @@ use Illuminate\Support\Str;
           <span class="text-danger me-2">Date: {{ $date }}</span>
         @endif
         @if($description)
-          <p class="description">{{ Str::limit($description, 100) }}</p>
+          <p class="description text-black">{{ Str::limit($description, 100) }}</p>
         @endif
     </div>
   </div>

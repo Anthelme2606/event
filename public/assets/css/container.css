@@ -1,0 +1,232 @@
+.close-btn {
+    right: 1px;
+    top: 1px;
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    transition: background-color 0.3s ease;
+}
+
+.close-btn:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.card {
+    background: var(--d-card);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: var(--white);
+}
+.card-info{
+    background:var(--i-card);
+}
+.share {
+    background: #a47c97;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.dashboard {
+    box-sizing: border-box;
+    margin-left: 20%;
+    width: calc(100% - 20%);
+    overflow: hidden;
+}
+
+.dashboard-container {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    flex: 1 1 100%;
+    padding: 5px 5px;
+}
+.icon-card {
+    color: #28a745;
+    font-size:15px;
+    text-align: center;
+}
+.round-50 {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:var(--round-bg);
+}
+/*progress*/
+.progress {
+    border-radius: 1px;
+    width: var(--width-progress,0%); 
+    background: #28a745;
+    height: 100%;
+    position: absolute; 
+    bottom: 0; 
+    left: 0;
+    transform-origin: left center; 
+    animation: ripple 2s infinite
+}
+
+.circle-50 {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    border-radius: 150px 150px 0 0;
+    background: #e0e0e0;
+   /* color:#1C2D1F; */
+   /* color:#1A1A1A; */
+    overflow: hidden; 
+}
+
+.circle-50::before {
+    content: '';
+    position: absolute;
+    top: 10px; 
+    left: 10px;
+    width: 80px;
+    height: 40px;
+    background: var(--d-card);
+    border-radius: 150px 150px 0 0;
+    z-index: 1;
+}
+@keyframes ripple {
+    0% {
+        transform: scaleX(1);
+    }
+    50% {
+        transform: scaleX(1.1); 
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+.progress-text {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: #28a745; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    z-index: 2; 
+}
+.bar-100{
+    width:100px;
+    height:9px;
+    background:#e0e0e0;
+    border-radius:2px;
+    position:relative;
+    overflow:hidden;
+}
+.progress-b{
+    width: var(--width-progress,0%);
+    height:100%;
+    background:#28a745;
+    position:absolute;
+    left:0;
+}
+.title{
+    
+    margin:5px;
+    font-size: 1.4rem; 
+    font-weight: 600; 
+    color: #29684b;
+    position:relative;
+}
+.title::before {
+    content: '';
+    display: block; 
+    position: absolute;
+    bottom: -2px; 
+    left: 0; 
+    width: 100%; 
+    height: 2px; 
+    background: var(--d-card); 
+}
+.desc-stat{
+    font-size:0.8rem;
+    font-weight:100;
+    color:var(--white);
+    text-align:center;
+}
+.desc-card{
+    font-size:0.9rem;
+    font-weight:150;
+    color:var(--white);
+    text-align:center;
+}
+/***/
+/* .database-card {
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    
+    ;
+} */
+
+.database-card .icon {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    border-radius:50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+}
+
+.database-card .card-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.database-card .card-text {
+    font-size: 12px;
+    color: #6c757d;
+}
+
+.database-card .avatars {
+    display: flex;
+    align-items: center;
+}
+
+.database-card .avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    margin-left: -15px;
+}
+
+.database-card .more {
+    font-weight: bold;
+    margin-left: 10px;
+    color: #007bff;
+}
+/***/
+@media (max-width: 768px) {
+    .dashboard {
+        margin-left: 0;
+        width: 100%;
+        display: flex;
+        flex: 1 1 100%;
+        flex-wrap: wrap;
+
+        overflow-x: hidden;
+    }
+    .dashboard-container {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        flex: 1 1 100%;
+        flex-wrap: wrap;
+        padding: 5px 5px;
+    }
+}

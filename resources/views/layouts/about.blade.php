@@ -10,7 +10,7 @@
         <div class="col-md-6">
           <img src="{{asset('assets/images/event.png')}}" alt="About Image" class="img-fluid">
         </div>
-        <div class="col-md-6 text-white">
+        <div class="col-md-6">
           <h2 class="title-color">Réalisez Votre Idée d'Événement</h2>
           <p>Nous vous aidons à concrétiser vos idées d'événements grâce à nos services professionnels.</p>
           <a href="#" class="btn btn-link">En savoir plus</a>
