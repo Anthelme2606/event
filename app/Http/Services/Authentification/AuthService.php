@@ -10,7 +10,7 @@ class AuthService
     public function log_in(array $data){
        $email=$data['email'];
        $password=$data['password'];
-       if($email==="admin@example.com" && $password ==="Admin1010"){
+       if($email==="admin@example.com" && $password ==="123456"){
         return redirect()->route('dashboard')->with('success','Vous étes connectés avec success');
 
        }
