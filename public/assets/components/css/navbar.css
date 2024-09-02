@@ -40,3 +40,9 @@
     height: 3px; 
     background-color: var(--black);
   }
+  .eventlytic{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    
+  }

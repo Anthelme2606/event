@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="{{asset('assets/components/css/navbar.css?'). '?' . time() }}"/>
 <nav class="navbar navbar-expand-lg navbar-dark navbar-color">
-    <a class="navbar-brand" href="{{route('welcome')}}">EVENTLYTIC</a>
+    {{-- <a class="navbar-brand" href="{{route('welcome')}}">EVENTLYTIC</a> --}}
+    <img class="img-fluid eventlytic" src="{{asset('assets/images/eventlytic.png')}}">
     {{-- <input type="search" class="search-input" placeholder="Rechercher ..."> --}}
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
