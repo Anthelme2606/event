@@ -14,4 +14,7 @@
 <x-footer/>
 </div>
 
+<!--frame opner-->
+<x-frame/>
+
 @endsection

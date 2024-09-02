@@ -1,0 +1,108 @@
+
+.btm-frame {
+   position: fixed;
+   width: 100%;
+   bottom: 0;
+   background: linear-gradient(135deg, #fff9c4, #e8e6db);
+   height: 400px;
+   z-index: 999;
+   padding: 25px;
+   box-shadow: 0 8px 4px rgba(0, 0, 0, 0.1);
+   border-top: 1px solid orange;
+   transition: transform 0.3s ease-in-out;
+   transform: translateY(0);
+   overflow-y:auto;
+   overflow-x:hidden;
+}
+
+.close-btn {
+    position: absolute;
+    right: -26px;
+    top: -25px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.close-btn:hover {
+    transform: scale(1.1);
+}
+.close-btn:focus {
+    border: none;
+    outline: none;
+}
+
+.close-btn span {
+    color: black;
+    font-size: 20px;
+}
+
+.btm-frame.close {
+    transform: translateY(100%);
+}
+
+
+.frame-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow:hidden;
+}
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+@media (min-width: 768px) {
+    .services-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+.service-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.service-content {
+    padding: 20px;
+    text-align: center;
+}
+.service-icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.service-icon svg {
+    width: 60px;
+    height: 60px;
+    padding: 12px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+}
+.service-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.service-description {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+
+

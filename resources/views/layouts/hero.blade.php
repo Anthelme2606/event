@@ -6,7 +6,7 @@
       <h1 class="display-4 hero-title">Vivez une expérience événementielle inoubliable avec nous</h1>
 
       <div class="mt-4">
-        <a href="#" class="btn btn-service btn-lg">Nos services</a>
+        <button  class="btn btn-service btn-lg opner">Nos services</button>
         <a href="#" class="btn btn-outline-light btn-lg btn-travaux">Nos travaux</a>
       </div>
     </div>
