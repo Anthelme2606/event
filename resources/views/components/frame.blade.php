@@ -8,8 +8,8 @@
                 <span class="mdi mdi-close"></span>
             </button>
             <div class="frame-container">
-                <div class="services-grid">
-                    <div class="service-card">
+                <div class=" services-grid">
+                    <div class="service-card mb-2">
                         <div class="service-content">
                             <div class="service-icon">
                                 <svg viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -23,7 +23,7 @@
                             <p class="service-description">Nous vous aidons à planifier chaque étape de votre événement, de la conception à l'exécution.</p>
                         </div>
                     </div>
-                    <div class="service-card">
+                    <div class="service-card mb-2">
                         <div class="service-content">
                             <div class="service-icon">
                                 <svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -35,7 +35,7 @@
                             <p class="service-description">Envoi et suivi des invitations, gestion des RSVP et des listes d'invités.</p>
                         </div>
                     </div>
-                    <div class="service-card">
+                    <div class="service-card mb-2">
                         <div class="service-content">
                             <div class="service-icon">
                                 <svg viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -47,7 +47,7 @@
                             <p class="service-description">Coordination sur site pour assurer le bon déroulement de votre événement.</p>
                         </div>
                     </div>
-                    <div class="service-card">
+                    <div class="service-card mb-2">
                         <div class="service-content">
                             <div class="service-icon">
                                 <svg viewBox="0 0 24 24" fill="none" stroke="#EC4899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -62,7 +62,7 @@
                             <p class="service-description">Création d'une ambiance unique avec une décoration personnalisée.</p>
                         </div>
                     </div>
-                    <div class="service-card">
+                    <div class="service-card mb-2">
                         <div class="service-content">
                             <div class="service-icon">
                                 <svg viewBox="0 0 24 24" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -74,6 +74,53 @@
                             <p class="service-description">Optimisation des coûts pour rester dans votre budget sans sacrifier la qualité.</p>
                         </div>
                     </div>
+                    <div class="service-card mb-2">
+                        <div class="service-content">
+                            <div class="service-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="#EF4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>
+                            </div>
+                            <h3 class="service-title" style="color: #EF4444;">Gestion des fournisseurs</h3>
+                            <p class="service-description">Sélection et coordination des meilleurs fournisseurs pour votre événement.</p>
+                        </div>
+                    </div>
+                    <div class="service-card mb-2">
+                        <div class="service-content">
+                            <div class="service-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="#6366F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                            </div>
+                            <h3 class="service-title" style="color: #6366F1;">Divertissement</h3>
+                            <p class="service-description">Organisation d'animations et de spectacles pour divertir vos invités.</p>
+                        </div>
+                    </div>
+                    <div class="service-card mb-2">
+                        <div class="service-content">
+                            <div class="service-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <h3 class="service-title" style="color: #059669;">Service après-événement</h3>
+                            <p class="service-description">Suivi post-événement, collecte de retours et analyse pour amélioration continue.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="info-section">
+                    <h2>Nos Services : Une Approche Globale de l'Événementiel</h2>
+                    <p>Chez EVENTLYTIC, nous comprenons que chaque événement est unique et mérite une attention particulière. Notre gamme complète de services est conçue pour couvrir tous les aspects de votre événement, de sa conception initiale à son exécution finale.</p>
+                    <p>Notre processus commence par une planification méticuleuse, où nous travaillons en étroite collaboration avec vous pour comprendre votre vision et vos objectifs. Nous gérons ensuite chaque détail, des invitations à la coordination le jour J, en passant par la décoration, le budget, et la sélection des fournisseurs.</p>
+                    <p>Nous accordons une importance particulière à la personnalisation. Que ce soit pour la décoration, le choix des divertissements ou la gestion des invités, chaque élément est soigneusement choisi pour refléter votre style et répondre à vos attentes.</p>
+                    <p>Notre équipe expérimentée est là pour vous guider à chaque étape, assurant une communication claire et une exécution sans faille. Nous nous occupons des défis logistiques pour que vous puissiez vous concentrer sur l'essentiel : profiter de votre événement.</p>
+                    <p>Après l'événement, notre service ne s'arrête pas. Nous effectuons un suivi approfondi, recueillons les retours et analysons chaque aspect pour garantir une amélioration continue de nos services.</p>
+                    <p>Faites confiance à EVENTLYTIC pour transformer votre vision en un événement inoubliable, géré avec professionnalisme du début à la fin.</p>
                 </div>
             </div>
         </div>
