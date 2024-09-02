@@ -4,7 +4,7 @@
    width: 100%;
    bottom: 0;
    background: linear-gradient(135deg, #fff9c4, #e8e6db);
-   height: 94vh;
+   height: 88vh;
    z-index: 999;
    padding: 25px;
    box-shadow: 0 8px 4px rgba(0, 0, 0, 0.1);
@@ -67,6 +67,32 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
+@media (min-width: 576px) {
+    .services-card {
+      grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
+    }
+  }
+  
+  /* Écrans moyens (≥768px) */
+  @media (min-width: 768px) {
+    .services-card {
+      grid-template-columns: repeat(3, 1fr); /* 3 colonnes */
+    }
+  }
+  
+  /* Écrans larges (≥1200px) */
+  @media (min-width: 1200px) {
+    .services-card {
+      grid-template-columns: repeat(5, 1fr); /* 5 colonnes */
+    }
+  }
+  
+  /* Écrans extra-larges (≥1400px) */
+  @media (min-width: 1400px) {
+    .services-card {
+      grid-template-columns: repeat(5, 1fr); /* 5 colonnes */
+    }
+  }
 .service-card {
     background-color: #ffffff;
     border-radius: 8px;
