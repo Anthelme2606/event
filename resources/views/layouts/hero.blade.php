@@ -7,7 +7,7 @@
 
       <div class="mt-4">
         <button  class="btn btn-service btn-lg opner ">Nos services</button>
-        <button  class="btn btn-outline-light btn-success btn-lg btn-travaux  opner-trav">Nos travaux</button>
+        <button  class="btn btn-outline-light btn-color btn-lg btn-travaux  opner-trav">Nos travaux</button>
       </div>
     </div>
   </section>

@@ -20,3 +20,6 @@
   .hero-title{
     color:#fff;
   }
+  .btn-color{
+    background-color:var(--black);
+  }
