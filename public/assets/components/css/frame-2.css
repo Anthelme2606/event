@@ -1,0 +1,92 @@
+
+.btm-trav-frame {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background: linear-gradient(135deg, #fff9c4, #e8e6db);
+    height: 88vh;
+    z-index: 999;
+    padding: 25px;
+    box-shadow: 0 8px 4px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid orange;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(0);
+    overflow-y:auto;
+    overflow-x:hidden;
+ }
+ 
+ .close-trav-btn {
+     position: absolute;
+     right: -26px;
+     top: -25px;
+     border: none;
+     outline: none;
+     background-color: #fff;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     text-align: center;
+     border-radius: 4px;
+     z-index:999;
+     width: 30px;
+     height: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+     transition: transform 0.2s ease;
+ }
+ 
+ .close-trav-btn:hover {
+     transform: scale(1.1);
+ }
+ .close-trav-btn:focus {
+     border: none;
+     outline: none;
+ }
+ 
+ .close-trav-btn span {
+     color: black;
+     font-size: 20px;
+ }
+ 
+ .btm-trav-frame.close {
+     transform: translateY(100%);
+ }
+ 
+ 
+ .frame-container {
+     width:100%;
+     margin: 0 auto;
+     overflow-x:hidden;
+     overflow-y:auto;
+ }
+ 
+ .card-img-top {
+     height: 200px;
+     object-fit: cover;
+ }
+ .card {
+     transition: transform 0.3s ease-in-out;
+ }
+ .card:hover {
+     transform: scale(1.05);
+ }
+
+ .info-section {
+     background: linear-gradient(135deg, #fff9c4, #e8e6db);
+     border-radius: 8px;
+     padding: 30px;
+     margin-top: 40px;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ }
+ .info-section h2 {
+     color: #333;
+     margin-bottom: 20px;
+ }
+ .info-section p {
+     margin-bottom: 15px;
+     line-height: 1.6;
+ }
+ 
+ 
+ 
+ 

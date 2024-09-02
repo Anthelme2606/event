@@ -6,8 +6,8 @@
       <h1 class="display-4 hero-title">Vivez une expérience événementielle inoubliable avec nous</h1>
 
       <div class="mt-4">
-        <button  class="btn btn-service btn-lg opner">Nos services</button>
-        <a href="#" class="btn btn-outline-light btn-lg btn-travaux">Nos travaux</a>
+        <button  class="btn btn-service btn-lg opner ">Nos services</button>
+        <button  class="btn btn-outline-light btn-success btn-lg btn-travaux  opner-trav">Nos travaux</button>
       </div>
     </div>
   </section>

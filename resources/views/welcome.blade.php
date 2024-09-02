@@ -16,5 +16,6 @@
 
 <!--frame opner-->
 <x-frame/>
+<x-frameTr/>
 
 @endsection
