@@ -1,5 +1,5 @@
 <section class="about-section py-5">
-    <div class="container">
+    <div class="px-2">
       <div class="row d-flex justify-content-center text-white align-items-center">
         <div class="d-flex justify-content-center align-items-center text-center mb-4">
           <h3 id="loading-text" class="text-center underline-green title-color">Événement en cours</h3>

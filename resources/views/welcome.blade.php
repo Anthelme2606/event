@@ -9,10 +9,7 @@
 @include('layouts.about')
 @include('layouts.city-famous')
 @include('layouts.galerie')
-{{-- <x-mode/> --}}
-{{-- @include('layouts.package')
 
-@include('layouts.testimonial') --}}
 <div class="bg-body">
 <x-footer/>
 </div>

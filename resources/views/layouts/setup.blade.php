@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ config('app.name') }} | @yield('title')</title>
+    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" />
     @if(Route::is('welcome') || Route::is('login') || Route::is('signup'))
     @include('layouts.head-b-4')
     @else

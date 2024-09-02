@@ -44,7 +44,7 @@ $cities = [
 @endphp
 
 <section class="services-provided-section py-5">
-    <div class="container">
+    <div class="px-2">
         <div class="row d-flex justify-content-center align-items-center">
             <h2 class="text-center underline-green title-color">Les villes les plus visitées</h2>
         </div>

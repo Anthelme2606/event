@@ -121,7 +121,7 @@ function truncateText($text, $maxLength) {
 </style>
 
 <section class="services-section py-5">
-  <div class="container">
+  <div class="px-2">
     <div class="row d-flex justify-content-center align-items-center mb-2">
       <h3 class="text-center title-color underline-green">Catégories d'événements</h3>
     </div>
