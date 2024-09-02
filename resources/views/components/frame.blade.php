@@ -3,7 +3,7 @@
  
     {{-- <button class="opner btn btn-primary">Opner</button> --}}
     <div class="btm-frame close">
-        <div class="d-flex position-relative justify-content-center align-items-center flex-column">
+        <div class=" position-relative  flex-column vh-100">
             <button class="close-btn">
                 <span class="mdi mdi-close"></span>
             </button>
