@@ -128,7 +128,7 @@ function truncateText($text, $maxLength) {
     
     <div class="row row-cols-4 row-cols-md-6 g-4">
       @foreach($categories as $category)
-        <div class="col d-flex flex-column align-items-center">
+        <div class="col d-flex flex-column align-items-center mb-2">
           <div class="category-background">
             {!! $category['icon'] !!}
           </div>
